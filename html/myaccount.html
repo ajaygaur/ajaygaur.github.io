@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <link rel="stylesheet" href="../css/myaccount.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="leftside-menu">
+
+            <img id="logo" src="../images/logo.png" alt="">
+            <div id="mydashboard" class="account"> <img class="myaccount" src="../images/dashboard.png" alt=""> <a href="dashboard.html" class="an-box2">Dashboard</a></div>
+            <div id="myaccount" class="account"><img class="myaccount" src="../images/people.png" alt=""> <a href="myaccount.html" class="an-box2"> My
+                    account</a></div>
+            <div id="mypost" class="account"><img class="myaccount" src="../images/mypost.png" alt=""> <a href="mypost.html" class="an-box2">My
+                    Post</a></div>
+            <div id="mymedia" class="account"> <img class="myaccount" src="../images/medialibrary.png" alt=""><a href="" class="an-box2">Media
+                    Library</a></div>
+            <div id="terms" class="account"><img class="myaccount terms-img" src="../images/terms.png" alt=""> <a href="" class="an-box2" id="aa5">Terms & Conditions</a></div>
+
+
+        </div>
+        <div id="rightside-box">
+            <div id="header">
+                <div id="wel-jhon">
+                    <div id="john">
+                        <h4>Welcome John</h4><br><a id="john-anchor" href="register.html">Basic account</a>
+                    </div>
+                    <a id="logout-btn" href="sign-in.html">Logout</a>
+                </div>
+            </div>
+
+            <div id="middle">
+                <div id="my-account" class="account"><img class="myaccount" src="../images/people.png" alt="">
+                    <p href="" id="pera-myaccount" class="an-box2"> My account </p>
+                </div>
+
+            </div>
+            <p id="personalinfo">Personal Info</p>
+
+
+            <div id="aside">
+                <div class="inner">
+                    <div> <label for="fname">Name</label><br>
+                        <input type="text" id="fname" class="dimension" name="fullname" placeholder="John smith ">
+                    </div>
+                    <div>
+                        <label for="company-name">Company</label><br>
+                        <input type="text" id="company-name" class="dimension" name="" placeholder="John smith">
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div>
+                        <label for="myemail">Email</label><br>
+                        <input type="email" id="" class="mail-w" name="myemail" placeholder="John@xyz.com"><br>
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div>
+                        <label for="country">My Country</label><br>
+                        <select name="country" id="" class="dimension company1" placeholder="Select Country">
+                                <option value="">Select Country</option>
+                                <option value="">Us</option>
+                                <option value="">Japan</option>
+                                <option value="">India</option>
+                                <option value="">Pakistan</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label for="mycity">City</label><br>
+                        <select id="" class="dimension company1" name="mycity">
+                                <option value="">Select City</option>
+                                <option value="">Morena</option>
+                                <option value="">Indor</option>
+                                <option value="">Delhi</option>
+                            </select>
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div>
+                        <label for="myphone">Phone Number</label><br>
+                        <input type="tel" id="phone-no" class="mail-w" name="myphone" maxlength="10" placeholder="+91 | Phone Number">
+                    </div>
+                </div>
+
+                <div class="inner">
+                    <div>
+                        <label for="myaccount">Account Type</label><br>
+                        <input type="text" id="Basic-account" class="dimension" name="myaccount" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Basic Account">
+                    </div>
+                    <div id="btn">
+                        <button id="btn1" onclick="location.href='dashboard.html'">Switch Account</button>
+                        <button id="btn2" onclick="location.href='sign-in.html'">Delet My Account</button>
+                        <button id="btn3" onclick="location.href='mypost.html'">Update</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="changepass">
+                <div>
+                    <p id="changepass-pera">Change Password</p>
+                </div>
+                <div>
+                    <label for="oldpass">Old Password</label><br>
+                    <input type="password" id="oldpass" name="pass">
+                </div>
+                <div id="new-cnf-pass">
+                    <div><label for="newpass">New Password</label><br>
+                        <input type="password" id="newpass" class="new-pass" name="newpass">
+                    </div>
+                    <div>
+                        <label for="cnfpass">Confirm Password</label><br>
+                        <input id="cnfpass" type="password" name="cnfpass" class="new-pass">
+                    </div>
+                </div>
+                <div id="update-btn">
+                    <button id="updatebtn" onclick="location.href='mypost.html'">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
